@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity 0.8.28;
 
 // This contract is intended for deployment on SepoliaETH (chainId: 11155111) and tCORE2 (chainId: 1114) testnets as configured in hardhat.config.ts
 
@@ -203,4 +203,3 @@ contract ThesisNFT is ERC721, Ownable {
         return _hasMinted[user];
     }
 }
-
