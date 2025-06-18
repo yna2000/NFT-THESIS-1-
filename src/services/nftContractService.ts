@@ -1,6 +1,6 @@
 import Web3 from "web3";
 import contractAddresses from "@/config/contractAddresses";
-import ThesisNFTABI from "../../core-contract/artifacts/contracts/Thesis-NFT.sol/ThesisNFT.json";
+import ThesisNFTABI from "coreContractArtifacts/contracts/Thesis-NFT.sol/ThesisNFT.json";
 
 export interface NFTMetadata {
   title: string;

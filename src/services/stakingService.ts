@@ -1,6 +1,6 @@
 import Web3 from "web3";
 import contractAddresses from "../config/contractAddresses";
-import StakingABI from "../../core-contract/artifacts/contracts/Staking.sol/Staking.json";
+import StakingABI from "coreContractArtifacts/contracts/Staking.sol/Staking.json";
 
 export interface StakePosition {
   amount: number;

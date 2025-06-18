@@ -1,6 +1,6 @@
 import Web3 from "web3";
 import contractAddresses from "../config/contractAddresses";
-import ThesisAuctionABI from "../../core-contract/artifacts/contracts/Thesis-Auction.sol/ThesisAuction.json";
+import ThesisAuctionABI from "coreContractArtifacts/contracts/Thesis-Auction.sol/ThesisAuction.json";
 import { NFTContractService, MintedNFT } from './nftContractService';
 
 export interface AuctionConfig {

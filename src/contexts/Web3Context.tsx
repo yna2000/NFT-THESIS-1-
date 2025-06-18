@@ -2,9 +2,9 @@ import React, { createContext, useContext, useState, useEffect, ReactNode } from
 import Web3 from 'web3';
 import { useToast } from '@/hooks/use-toast';
 import contractAddresses from '../config/contractAddresses';
-import StakingABI from '../../core-contract/artifacts/contracts/Staking.sol/Staking.json';
-import ThesisNFTABI from '../../core-contract/artifacts/contracts/Thesis-NFT.sol/ThesisNFT.json';
-import ThesisAuctionABI from '../../core-contract/artifacts/contracts/Thesis-Auction.sol/ThesisAuction.json';
+import StakingABI from 'coreContractArtifacts/contracts/Staking.sol/Staking.json';
+import ThesisNFTABI from 'coreContractArtifacts/contracts/Thesis-NFT.sol/ThesisNFT.json';
+import ThesisAuctionABI from 'coreContractArtifacts/contracts/Thesis-Auction.sol/ThesisAuction.json';
 
 declare global {
   interface Window {
@@ -298,4 +298,4 @@ export const useWeb3 = (): Web3ContextType => {
     throw new Error('useWeb3 must be used within a Web3Provider');
   }
   return context;
-}; 
+};
